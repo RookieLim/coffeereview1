@@ -1,0 +1,153 @@
+@charset "UTF-8";
+@import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700,300italic,400italic,600italic);
+
+.phbtn_pc{display:none;}
+.phbtn_mo{display:block;}
+
+ul{padding:0px;}
+
+html,
+body {
+    min-height: 100%;
+}
+body.graybd{background:#eee;}
+
+.layout-boxed html,
+.layout-boxed body {
+    height: 100%;
+}
+body {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    font-family: 'Noto Sans KR', 'Source Sans Pro', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-weight: 400;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+
+/* Layout */
+.wrapper {
+    min-height: 100%;
+    position: relative;
+    overflow: hidden;
+
+}
+
+@media (min-width: 1024px) {
+	.wrapper {
+	width:720px; margin:auto; border-right:1px solid #dbdbdb;
+	border-left:1px solid #dbdbdb;
+		min-height: 100%;
+		position: relative;
+		overflow: hidden;
+		zoom:1.2;
+	}
+}
+
+.wrapper:before,
+.wrapper:after {
+    content: " ";
+    display: table;
+}
+
+.wrapper:after {
+    clear: both;
+}
+
+
+.hot-bottom {
+    background-color: #FFFFFF;
+    padding: 15px;
+    text-align: center;
+	width:100%;
+	float:left;
+    /*margin-bottom:50px;*/
+}
+
+.hot-bottom-info {
+    color: #000000;
+    height: 20px;
+    padding-bottom: 2px;
+    text-align: center;
+    font-size: 11px;
+}
+
+.hot-bottom-mall-info {
+    color: #8e8e8e;
+    font-size: 9px;
+}
+
+textarea.place-info-textarea
+{position:relative; padding:8px;
+margin-top:10px; line-height:150%; float:left;
+resize:none; width:100%; height:80px;
+border:1px solid #dbdbdb; font-size:13px;
+color:#535353; overflow:hidden; background:#ededed;}
+
+.bgd2 p{
+    letter-spacing: -1px;
+}
+
+u{text-decoration:underline;}
+section.content{padding:0px; margin:0px; display:table; width:100%;}
+.mb_login_hd{background:#fff;}
+.mb_login_grid{padding:20px; background:#fff;}
+.mb_login_wrap{}
+.mb_sign_grid{padding:20px; background:#ededed;}
+.mb_sign_wrap{}
+.mb_sign_grid{padding:20px; background:#ededed;}
+.mb_sign_wrap{}
+.mb_common_hd{background:#fff;}
+
+/*서브밋 버튼 정의*/
+.member_submit_grid_logout{margin-top:10px; width:100%; height:50px; background:#222; display:table; opacity:0.4;}
+.member_submit_grid_logout span{vertical-align:middle; display:table-cell; text-align:center;color:#fff; font-size:16px; }
+.member_submit_grid{margin-top:15px; width:100%; height:55px; background:#222; display:table; opacity:0.4;}
+.member_submit_grid span{vertical-align:middle; display:table-cell; text-align:center;color:#fff; font-size:16px; }
+.member_mail_submit_grid{margin-top:0px; width:100%; height:50px; background:#222; display:table; opacity:0.4;}
+.member_mail_submit_grid span{vertical-align:middle; display:table-cell; text-align:center;color:#fff; font-size:16px; }
+
+/*인풋 플레이스홀더 정의*/
+::-webkit-input-placeholder{color:#999; letter-spacing:-0.5px; font-weight:normal; opacity:1; padding-left:0px;}
+::-moz-placeholder { /* Firefox 19+ */ color: #999; letter-spacing:-0.5px; font-weight:normal; opacity:1; padding-left:0px;}
+:-ms-input-placeholder { /* IE 10+ */ color: #999; letter-spacing:-0.5px; font-weight:normal; opacity:1;  padding-left:0px;}
+:-moz-placeholder { /* Firefox 18- */ color: #999; letter-spacing:-0.5px; font-weight:normal; opacity:1; padding-left:0px;}
+
+/*인풋창 정의*/
+.idpw_input_wrap{width:100%; border:1px solid #dbdbdb;}
+.inputinnerbox{width:90%; float:left; height:44px; }
+.idinput_div{width:100%; height:44px; background:#fff;}
+.pwinput_div{width:100%; height:45px; background:#fff; border-top:1px solid #dbdbdb; }
+.nameinput_div{width:100%; height:45px; background:#fff; border-top:1px solid #dbdbdb; }
+.hpinput_div{width:100%; height:45px; background:#fff; border-top:1px solid #dbdbdb; }
+
+input.mb_login_idinput{height:100%; width:100%; border:0px; padding-left:10px;}
+input.mb_login_pwinput{height:100%; width:100%; border:0px; padding-left:10px;}
+input.mb_login_nameinput{height:100%; width:100%; border:0px; padding-left:10px;}
+input.mb_login_hpinput{height:100%; width:100%; border:0px; padding-left:10px;}
+
+/*인풋창 내 정보입력 시 버튼활성화*/
+.btn_valid_activated{ opacity:1.0 !important;}
+
+/*유효성검사 오류 메시지 출력 정의*/
+.alret_invaild_wrap{margin-top:10px;}
+.alret_invaild_message{width:100%; height:25px;  display:none ; /*출력시에는 display:table;*/ }
+.alret_invaild_message span{width:100%;  vertical-align:middle; text-align:left; display:table-cell; font-size:12px; padding-left:5px; color:#e00000;}
+.alret_message_view{width:100%; padding:5px 0px 2px 0px; float:left; text-indent:-15px; padding-left:15px;}
+
+/*로그인 네비게이션 정의*/
+.login_nav_grid{margin-top:15px; width:100%; height:50px;  display:table; padding:0px 0%;  font-size:14px; color:#000000; font-weight:300;}
+.login_nav_box{width:calc(100%); height:30px; text-align:center; color:#000000;}
+
+/*소셜로그인 버튼 정의*/
+.login_social_wrap{width:100%;}
+.login_social_grid{padding:0px 0px 0px 0px; background:#fff;}
+.social_btnbox{width:100%; height:55px;  display:table; margin-top:3px;}
+.social_btnbox span{vertical-align:middle; display:table-cell; text-align:center; font-size:18px; letter-spacing:-0.5px; color:#fff;}
+.fblogin{background:#39579e;}
+.ktlogin{background:#ffcf00; }
+.nblogin{background:#20bc01;}
+.login_fb_icon{display:inline; position:relative; left:4px; top:-2px;}
+.login_nb_icon{display:inline; position:relative; top:-2px;}
+.login_kt_icon{display:inline; position:relative; top:-2px;}
+.login_btntxt{display:inline; margin-left:5px; }
