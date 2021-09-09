@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500" rel="stylesheet">
+  <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+  <link rel="stylesheet" href="../static/detail.css">
+  <script src="../static/coffee_info.js"></script>
+  <!-- <script type="modlue" src="./fact.js"></script> -->
+  <title>상세 페이지</title>
+</head>
+<body>
+  <div class="body__container">
+      <header class="section">
+                <div class="menu-group">
+                    <div class="inner">
+                        <div class="Coffeereview">
+                            <a href="./index.html" style="cursor:auto">
+                                <img src="../static/coffeereview1.png"
+                                     alt="coffeereview"></a>
+                        </div>
+
+                            <div class="login">
+                                <a href="./login.html" style="color: white">Login</a>
+                            </div>
+                    </div>
+                </div>
+        </div>
+        </header>
+  <section class="detail-section inner">
+    <div class="detail-info">
+    <div class="detail-img">
+      <img src="">
+    </div>
+    <div class="detail-description" id="coffeeInfoList">
+
+    <p class="detail-title">블렌딩 콜드 브루</p>
+      <p class="detail-item-fact">제품 영양 정보</p>
+      <ul class="detail-fact">
+        <li class="kcal"> 1회 제공량(kcal) : 420</li>
+        <li class="na"> 나트륨(mg) : 140 </li>
+        <li class="fat"> 포화지방(g) : 6 </li>
+        <li class="sugar"> 당류(g) : 53</li>
+        <li class="protein"> 단백질(g) :10 </li>
+        <li class="caffeine"> 카페인(mg) : 210</li>
+      </ul>
+    </div>
+  </div>
+    <div class="detail-card-review">
+      <div class="detail-cards best">
+        <div class="detail-text">좋아요</div>
+        <div class="detail-number">133</div>
+      </div>  
+      <div class="detail-cards nomal">
+        <div class="detail-text">보통이에요</div>
+        <div class="detail-number">222</div>
+      </div>  
+      <div class="detail-cards bad">
+        <div class="detail-text">별루에요</div>
+        <div class="detail-number">1</div>
+      </div> 
+    </div>
+  </section>
+  <section class="detail-text-review">
+    <div class="detail-comment-box" id="detail-comment-box">
+      <!-- <div class="detail-comment-writer">나는누구</div> -->
+      <div class="detail-comment-review">맛있어용
+        <!-- <i class="fas fa-minus-circle detail-comment-del" id="detail-comment-del" onclick="reviewDelBtn()"></i> -->
+      </div>
+      <div class="detail-comment-date">2021. 8. 31. 오후 9:39:47</div>
+    </div>
+    <!-- 부트스트랩 input -->
+    <div class="detail-review-input inner" id="detail-review-input">
+      <div class="detail-review-form-box">
+        <input type="text" id="detail-review-content" class="detail-review-content" autocomplete="off" aria-label="리뷰내용"></input>
+        <a href="./login.html" style="cursor:auto">
+        <button type="submit" onclick="reviewSubmit()" class="detail-review-submit-btn" id="detail-review-box-form" value="리뷰쓰기">리뷰<br>쓰기</button>
+      </div></a>
+      <div class="detail-review-checkbox-container">
+        <div class="detail-review-checkbox best">
+          <input class="detail-form-radio" checked="true" type="radio" name="detail-form-radio" id="detail-form-radio-best">
+          <label class="detail-form-radio-label" for="detail-form-radio-best">
+            좋아요
+          </label>
+        </div>
+        <div class="detail-review-checkbox nomal">
+          <input class="detail-form-radio" checked="false"  type="radio" name="detail-form-radio" id="detail-form-radio-nomal">
+          <label class="detail-form-radio-label" for="detail-form-radio-nomal">
+            보통이에요
+          </label>
+        </div>
+        <div class="detail-review-checkbox bad">
+          <input class="detail-form-radio" checked="false"  type="radio" name="detail-form-radio" id="detail-form-radio-bad">
+          <label class="detail-form-radio-label" for="detail-form-radio-bad">
+            별로에요
+          </label>
+        </div>
+      </div>
+    </div>
+  </section>
+</body>
+</html>

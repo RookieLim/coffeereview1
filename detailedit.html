@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>Coffereview</title>
+    <meta name="author" content="항해99 3기">
+    <meta name="description" content="Check a review,Find fit your personal coffee">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- http://ogp.me/ -->
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="coffeereview">
+    <meta property="og:title" content="Check a review,Find fit your personal coffee">
+    <meta property="og:description" content="Portfolio / projects.">
+    <meta property="og:image" content="img/coreview.jpg">
+    <meta property="og:url" content="">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+          integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+    <!-- Optional JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+            integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+            crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+            integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+            crossorigin="anonymous"></script>
+
+    <link rel="icon" href="favicon.png">
+    <link rel="apple-touch-icon" href="favicon.png">
+
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.css">
+    <link rel="stylesheet" href="../static/detailedit.css">
+
+    <script src="../static/jquery-1.12.3.js"></script>
+    <script defer src="../static/detailedit.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+</head>
+<div class="wrapper">
+    <body>
+    <div class="body__container">
+        <!--HEADER-->
+        <header class="section">
+            <div class="menu-group">
+                <div class="inner">
+
+                    <div class="logo">
+                        <a href="./starbucks1.html" style="cursor:auto">
+                            <img src="../static/starbucks2.png" style="padding: 0px 10px 0px 0px;" alt="starbucks"></a>
+                        <a href="paulbassett1.html" style="cursor:auto">
+                            <img src="../static/paulbassett2.png" style="padding: 0px 10px 0px 0px;" alt="paulbassett"></a>
+                        <a href="./pascucci1.html" style="cursor:auto">
+                            <img src="../static/pascucci1.png" alt="pascucci"></a>
+
+                        <div class="login">
+                            <a href="./login.html" style="color: white">Login</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </div>
+    </header>
+    <section class="main-container">
+
+
+        <ul class="order-complt-product-grid">
+
+            <li class="order-complt-product-box">
+                <div class="order-complt-product-box-left">
+                    <img src="https://image.istarbucks.co.kr/upload/store/skuimg/2021/06/[9200000003643]_20210623101238720.jpg"
+                         width="300" height="313"></div>
+                <div class="order-complt-product-box-right">
+                    <div class="order-complt-product-box-h1">스타벅스 돌차라뗴</div>
+                    <div class="order-complt-product-box-h2" class="complt_hspan">제품 영양정보</div>
+                    <div class="order-complt-product-box-h3" class="complt_hspan">1회 제공량(kcal)</div>
+                    <div class="order-complt-product-box-h4" class="complt_hspan">포화지방(g)</div>
+                    <div class="order-complt-product-box-h4" class="complt_hspan">단백질(g)</div>
+                    <div class="order-complt-product-box-h4" class="complt_hspan">나트륨(g)</div>
+                    <div class="order-complt-product-box-h4" class="complt_hspan">당류(g)</div>
+                    <div class="order-complt-product-box-h4" class="complt_hspan">카페인(g)</div>
+                </div>
+                <div class="order-complt-statgrid">
+                    <div class="order-complt-statbtn-box">
+                        <div class="order-complt-statbtn1">
+                            <span>최고입니다!</span>
+                        </div>
+                        <div class="order-complt-statblk"></div>
+                        <div class="order-complt-statbtn2">
+                            <span>보통입니다~</span>
+                        </div>
+                        <div class="order-complt-statblk"></div>
+                        <div class="order-complt-statbtn3">
+                            <span>별로예요</span>
+                        </div>
+                    </div>
+                </div>
+            </li>
+        </ul>
+    </section>
+    <section class="detail-text-review">
+        <div class="detail-comment-box" id="detail-comment-box">
+            <!-- <div class="detail-comment-writer">나는누구</div> -->
+            <div class="detail-comment-review">좋아요
+                <!-- <i class="fas fa-minus-circle detail-comment-del" id="detail-comment-del" onclick="reviewDelBtn()"></i> -->
+            </div>
+            <div class="detail-comment-date">2021. 8. 31. 오후 10:00</div>
+        </div>
+        <!-- 부트스트랩 input -->
+        <div class="detail-review-input inner" id="detail-review-input">
+            <div class="detail-review-form-box">
+                <input type="text" id="detail-review-content" class="detail-review-content" autocomplete="off"
+                       aria-label="리뷰내용"></input>
+                <button type="submit" onclick="reviewSubmit()" class="detail-review-submit-btn"
+                        id="detail-review-box-form" value="리뷰쓰기">리뷰<br>쓰기
+                </button>
+            </div>
+            <div class="detail-review-checkbox-container">
+                <div class="detail-review-checkbox best">
+                    <input class="detail-form-radio" checked="true" type="radio" name="detail-form-radio"
+                           id="detail-form-radio-best">
+                    <label class="detail-form-radio-label" for="detail-form-radio-best">
+                        좋아요
+                    </label>
+                </div>
+                <div class="detail-review-checkbox nomal">
+                    <input class="detail-form-radio" checked="false" type="radio" name="detail-form-radio"
+                           id="detail-form-radio-nomal">
+                    <label class="detail-form-radio-label" for="detail-form-radio-nomal">
+                        보통이에요
+                    </label>
+                </div>
+                <div class="detail-review-checkbox bad">
+                    <input class="detail-form-radio" checked="false" type="radio" name="detail-form-radio"
+                           id="detail-form-radio-bad">
+                    <label class="detail-form-radio-label" for="detail-form-radio-bad">
+                        별로에요
+                    </label>
+                </div>
+            </div>
+        </div>
+    </section>
+    </body>
+</html>
+
+</section>
+</body>
