@@ -12,7 +12,7 @@
     <br><br>
     Project URL : "http://timco.dothome.co.kr/"
     <br><br>
-    <img src="https://user-images.githubusercontent.com/85553325/155824971-7cbaf614-a323-452b-afed-ea65cece0aeb.png" width="800px" height="490px">
+    <img src="https://user-images.githubusercontent.com/85553325/155833261-84574fdc-1838-49b5-b99b-136e56da2323.png" width="800px" height="490px">
     <h1>1.Coffee Review Site</h1>
     <h3> 📌Brand coffee type Review sharing site</h3>
     <p>Project Period : 2021. 09. 01~ 2021. 09. 30<p>
