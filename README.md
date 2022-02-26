@@ -6,19 +6,19 @@
   <body>
     <h1>Coffee Review Site</h1>
     <br>A site that collects and displays coffee brand coffee information
-    <br>Coffee type information sharing site
+    <br>Coffee type information and Review sharing site
     <br><br>
-    <strong>HTML,CSS,Javascript based site<a href="http://timco.dothome.co.kr/">Coffee Brand Collects Site</a></strong>
+    <strong>HTML,CSS,Javascript based site<a href="http://timco.dothome.co.kr/"><br>Coffee Brand Collects Site</a></strong>
     <br><br>
     Project URL : "http://timco.dothome.co.kr/"
     <br><br>
     <img src="https://user-images.githubusercontent.com/85553325/155824971-7cbaf614-a323-452b-afed-ea65cece0aeb.png" width="800px" height="490px">
-    <h1>1.Simple WeatherApp Intro</h1>
-    <h3> 📌My area based Simple UI weather APP</h3>
-    <p>Project Period : 2022. 02. 14 ~ 2021. 02. 23<p>
-    <p> <span style="color:orange" >"A simple weather app based on my area"</span>
-      <br> An app that allows you to check the region, temperature, and even weather conditions on one screen.<br></p> 
-    <h1>2.Simple Weather APP Team </h1>
+    <h1>1.Coffee Review Site</h1>
+    <h3> 📌Brand coffee type Review sharing site</h3>
+    <p>Project Period : 2021. 09. 01~ 2021. 09. 30<p>
+    <p> <span style="color:orange" >"A Coffee Review site based on brand"</span>
+      <br>Sites that show data based on information shared by coffee brands.<br></p> 
+    <h1>2.Coffee Review Site</h1>
     ✔️ We worked in communication through the whole process.
    <br> ✔️ I checked the information update status in real time while writing it myself.
    <br> ✔️ Through code review, we tell each other what we don't know and fill in the gaps.
@@ -32,14 +32,12 @@
     <strong>Technology stacks</strong>
      <ul>
       <li>HTML,CSS,Javascript ES6</li>
-      <li>React Native</li>
-      <li>React-infinite-scroll-component</li>
-      <li>React-datepicker</li>
-     </ul>
-    <h1>4.Simple weather app is the future</h1>
+       <li>JSON</li>
+       <li>Python</li>
+      </ul>
+    <h1>4.Coffee type information and Review sharing site</h1>
     <ul>
       <li>Rendering is being optimized.</li>
-      <li>We will continue to update based on user feedback.</li>
       <li>We plan to improve the components through code review to facilitate maintenance.</li>
     </ul>
     <h1>5.Project Planning</h1>
