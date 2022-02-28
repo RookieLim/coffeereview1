@@ -28,7 +28,7 @@
     <br> 🌱 <a href = "https://github.com/RookieLim">임재성</a>  
     <br> 🌱 <a href = "https://github.com/mingab91">조민갑</a>
      <h1>3.Technology stacks and packages</h1>
-   <h3>🛠Frontend</h3>
+   <h3>🛠Frontend&Backend</h3>
     <strong>Technology stacks</strong>
      <ul>
       <li>HTML,CSS,Javascript ES6</li>
