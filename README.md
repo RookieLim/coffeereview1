@@ -15,7 +15,7 @@
     <img src="https://user-images.githubusercontent.com/85553325/155833261-84574fdc-1838-49b5-b99b-136e56da2323.png" width="320px" height="440px">
     <h1>1.Coffee Review Site</h1>
     <h3> 📌Brand coffee type Review sharing site</h3>
-    <p>Project Period : 2021. 09. 01~ 2021. 09. 30<p>
+    <p>Project Period : 2021. 09. 10~ 2021. 09. 30<p>
     <p> <span style="color:orange" >"A Coffee Review site based on brand"</span>
       <br>Sites that show data based on information shared by coffee brands.<br></p> 
     <h1>2.Coffee Review Site</h1>
